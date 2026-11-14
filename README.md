@@ -8,7 +8,7 @@ An Adobe Illustrator script that places registration marks (regmarks) for **cut-
 1. **Kiss-cut** the design *and* the regmarks in vinyl on a Summa roll cutter (Summa GoSign).
 2. **Weed** the vinyl, but leave the regmarks in place.
 3. Put **application tape** over the weeded vinyl.
-4. **Thru-cut** the taped vinyl on a Summa F Series flatbed (Summa GoProduce). Its camera reads the cut vinyl regmarks, so the cut lines up exactly with the design. The result: separate stickers, still on their backing paper and with application tape on top, ready to apply.
+4. **Thru-cut** the taped vinyl on a Summa F Series flatbed (Summa GoProduce).
 
 Because you choose the mark size yourself, you can make the marks large, for example 10 mm. Large marks are much quicker to weed around than the 3 mm squares or 5 mm circles that Summa's own plug-ins place. You also set the offset, the number and spacing of the marks, and the corner of the orientation mark, with a live preview.
 
