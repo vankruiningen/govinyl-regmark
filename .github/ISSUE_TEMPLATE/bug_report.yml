@@ -1,0 +1,49 @@
+name: Bug report
+description: Something does not work as expected
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: script-version
+    attributes:
+      label: Script version
+      description: Shown at the bottom of the dialog, e.g. v2.0
+    validations:
+      required: true
+  - type: input
+    id: illustrator
+    attributes:
+      label: Illustrator version
+      placeholder: e.g. Illustrator 2026 (30.x)
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: plotter
+    attributes:
+      label: Plotter and cutting software
+      placeholder: e.g. Summa S3 with GoProduce
+  - type: textarea
+    id: settings
+    attributes:
+      label: Settings used
+      description: A screenshot of the dialog is easiest.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Error messages, screenshots, or a small .ai file that shows the problem.

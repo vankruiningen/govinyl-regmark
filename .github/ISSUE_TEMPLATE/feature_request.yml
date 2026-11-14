@@ -1,0 +1,21 @@
+name: Idea or feature request
+description: Suggest an improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe the situation in your work where the script falls short.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How could the script help?
+      description: Your idea for a solution, if you have one.
+  - type: input
+    id: plotter
+    attributes:
+      label: Plotter and cutting software
+      placeholder: e.g. Summa S3 with GoProduce
