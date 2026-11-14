@@ -16,6 +16,17 @@ Because you choose the mark size yourself, you can make the marks large, for exa
 
 ![The GoVinyl Regmark dialog with live preview](docs/dialog.jpg)
 
+### Which cutters?
+Because the marks can be **square** or **round**, GoVinyl Regmark works with each Summa registration system:
+
+| Machine | Reads marks with | Use |
+|---|---|---|
+| Summa roll cutter with **OPOS** sensor | optical sensor | **Square** marks |
+| Summa roll cutter with **OPOS CAM** | camera | **Round** marks |
+| Summa **F Series** flatbed | camera | **Round** marks |
+
+For OPOS, Summa's guidance for square marks is about 3 mm, and between 1.2 and 10 mm.
+
 ## Why GoVinyl Regmark?
 For printed work, registration marks are never a problem: every RIP adds them for you. But a job that is **only cut vinyl** never goes through a RIP, so there is nothing to add the marks. You end up drawing them by hand.
 
@@ -52,7 +63,7 @@ Press F5 to open GoVinyl Regmark. On a Mac keyboard you may need to hold **fn** 
 
 ### Marks
 - **Size:** 3, 5 or 10 mm, or your own size via *Custom*.
-- **Shape:** circle or square.
+- **Shape:** circle (for camera systems: OPOS CAM and the F Series) or square (for the OPOS sensor).
 - **Offset:** distance between the edge of the artboard (or selection) and the edge of the mark (default 5 mm). At 0 mm the mark touches the edge, fully inside or fully outside depending on *Position*; at minus half the mark size its centre sits on the edge. A negative offset moves the marks past the edge: with *Inside Artboard* and an offset of -10 mm, the marks end up just outside the artwork.
 - **Spacing by:** choose how the marks along the edges are spread:
   - *Max. interval:* the maximum distance between two marks (default 600 mm). Longer sides get evenly spaced intermediate marks. Next to the field you see how many marks that gives, e.g. `= 5 × 5 marks` (width × height).
