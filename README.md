@@ -93,6 +93,9 @@ The right side of the dialog shows a live preview of the current artboard (or th
 - **Remembers settings:** your last used settings are stored in `GoVinyl/settings.json` in your user application-data folder. Settings from earlier versions are taken over once. Settings are saved when you click **Place Marks**, not on **Cancel**.
 - **Large Canvas:** works on large canvases by taking Illustrator's scale factor into account.
 
+## Ideas for the future
+- **Quick sets:** save a combination of settings under a name (for example per material, mark size or customer) and recall it with one click. This is being considered for a future version; if you would use it, tell us how in an [issue](https://github.com/vankruiningen/govinyl-regmark/issues/new/choose).
+
 ## Feedback and contributing
 Something not working, or an idea? [Open an issue](https://github.com/vankruiningen/govinyl-regmark/issues/new/choose); the **Feedback** button in the dialog takes you there too. After 10 uses the script asks once whether you would like to give feedback.
 
