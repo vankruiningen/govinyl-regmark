@@ -17,7 +17,7 @@ Because you choose the mark size yourself, you can make the marks large, for exa
 ![The GoVinyl Regmark dialog with live preview](docs/dialog.jpg)
 
 ### Which cutters?
-Because the marks can be **square** or **round**, GoVinyl Regmark works with each Summa registration system:
+Because the marks can be **square** or **round**, GoVinyl Regmark works with each Summa registration system. All three have been tested:
 
 | Machine | Reads marks with | Use |
 |---|---|---|
@@ -54,7 +54,7 @@ Press F5 to open GoVinyl Regmark. On a Mac keyboard you may need to hold **fn** 
 
 **Updating:** put the new version in the Scripts folder, remove the old one and restart Illustrator. Because the file name contains the version, the action still points to the old menu item: in the Actions panel, double-click the *Insert Menu Item* step of your action and choose the new **File > Scripts > GoVinyl_Regmark_v…** item. The shortcut stays the same.
 
-**Tested with:** Adobe Illustrator 2026 on macOS, Summa GoSign for kiss-cutting on a Summa roll cutter, and Summa GoProduce for thru-cutting on a Summa F Series. It has not been tested on Windows, with older Illustrator versions or with other cutting software; reports are very welcome.
+**Tested with:** Adobe Illustrator 2026 on macOS; Summa GoSign on Summa roll cutters with OPOS (square marks) and OPOS CAM (round marks); and Summa GoProduce for thru-cutting on a Summa F Series. It has not been tested on Windows, with older Illustrator versions or with other cutting software; reports are very welcome.
 
 ## Usage
 1. Open a document in Illustrator.
