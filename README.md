@@ -30,6 +30,8 @@ For OPOS, Summa's guidance for square marks is about 3 mm, and between 1.2 and 1
 ## Why GoVinyl Regmark?
 For printed work, registration marks are never a problem: every RIP adds them for you. But a job that is **only cut vinyl** never goes through a RIP, so there is nothing to add the marks. You end up drawing them by hand.
 
+For a small job on a standard A-size sheet, a few marks by hand is fine. But for **8 metres of cut car-wrap vinyl** you need dozens of marks, evenly spaced along every edge, and placing them by hand is slow and easy to get wrong. That is where GoVinyl Regmark really saves time: set the size and spacing (or the number of marks), check the preview, and all marks are placed in seconds. It also works on Illustrator's Large Canvas documents.
+
 I built this script for one reason: the Illustrator plug-ins Summa supplies for GoSign and GoProduce were too limited for this work. They place small marks with fixed settings (3 mm squares or 5 mm circles), which are slow to weed in vinyl, and you cannot change their size, spacing or number. The first version came together in a few evenings in 2025, worked well from the start, and has saved our shop a lot of time ever since. Version 2 adds everything we missed: free spacing or a fixed number of marks, a corner of your choice for the orientation mark, a live preview with the document bleed, and settings that are remembered.
 
 GoVinyl Regmark is already in daily use at several sign shops besides ours. Their experiences led to a number of the changes and additions in version 2. We share it because other sign makers run into the same gap.
