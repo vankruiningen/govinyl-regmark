@@ -23,7 +23,7 @@
  * ExtendScript (ES3): no let/const, no JSON object, no Array.indexOf.
  */
 
-var VERSION = "2.0";
+var VERSION = "2.1";
 var ISSUES_URL = "https://github.com/vankruiningen/govinyl-regmark/issues";
 var MM_TO_PT = 2.834645669;
 var PRESET_SIZES = [3, 5, 10];
@@ -1106,7 +1106,7 @@ function showDialog(doc, settings) {
         // honest, the enlarged mark grows away from the artboard edge, so a mark
         // that touches the edge from inside (or outside) still does so.
         var realR = st.radius * scale;
-        var r = Math.max(3.5, realR);
+        var r = Math.max(1.75, realR);
         var grow = r - realR;
         var cols = st.layout.columns;
         var eps = st.radius / 100;

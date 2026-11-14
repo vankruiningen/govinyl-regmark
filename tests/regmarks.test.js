@@ -11,7 +11,7 @@ const path = require("path");
 const vm = require("vm");
 const assert = require("assert");
 
-// The script file carries its version in the name, e.g. GoVinyl_Regmark_v2.0.js.
+// The script file carries its version in the name, e.g. GoVinyl_Regmark_v2.1.js.
 const root = path.join(__dirname, "..");
 const scripts = fs.readdirSync(root).filter((name) => /^GoVinyl_Regmark_v\d+(\.\d+)*\.js$/.test(name));
 if (scripts.length !== 1) {

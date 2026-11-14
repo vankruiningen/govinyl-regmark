@@ -43,13 +43,13 @@ GoVinyl Regmark is already in daily use at several sign shops besides ours. Thei
 ### In the menu, with a keyboard shortcut
 To start GoVinyl Regmark from the menu, or with a single key:
 
-1. **Put the script in Illustrator's Scripts folder** (for example `GoVinyl_Regmark_v2.0.js`):
+1. **Put the script in Illustrator's Scripts folder** (for example `GoVinyl_Regmark_v2.1.js`):
    - macOS: `/Applications/Adobe Illustrator 2026/Presets.localized/en_US/Scripts/`
    - Windows: `C:\Program Files\Adobe\Adobe Illustrator 2026\Presets\en_US\Scripts\`
 
-   Use your own Illustrator version and language folder. Remove older copies from this folder, then restart Illustrator. The script is now under **File > Scripts > GoVinyl_Regmark_v2.0**.
+   Use your own Illustrator version and language folder. Remove older copies from this folder, then restart Illustrator. The script is now under **File > Scripts > GoVinyl_Regmark_v2.1**.
 2. **Create an action for it:** open **Window > Actions**, click *Create New Set* (folder icon) and name it `GoVinyl`. Click *Create New Action* (plus icon), name it `GoVinyl Regmark`, choose a **Function Key** (for example F5) and click **Record**.
-3. In the Actions panel menu (☰), choose **Insert Menu Item...**, then choose **File > Scripts > GoVinyl_Regmark_v2.0** from Illustrator's menu bar and click **OK**.
+3. In the Actions panel menu (☰), choose **Insert Menu Item...**, then choose **File > Scripts > GoVinyl_Regmark_v2.1** from Illustrator's menu bar and click **OK**.
 4. Click **Stop** (square button) in the Actions panel.
 
 Press F5 to open GoVinyl Regmark. On a Mac keyboard you may need to hold **fn** for function keys.

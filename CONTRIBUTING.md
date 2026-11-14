@@ -7,7 +7,7 @@ Use [Issues](https://github.com/vankruiningen/govinyl-regmark/issues/new/choose)
 
 ## Changing the code
 1. Fork the repository and create a branch for your change.
-2. Edit `GoVinyl_Regmark_v….js`. Keep it one file, so people can install it by downloading a single script. For a new version, raise `VERSION` in the script, rename the file to match (`git mv GoVinyl_Regmark_v2.0.js GoVinyl_Regmark_v2.1.js`) and add a section to `CHANGELOG.md`; the tests check that file name and version agree.
+2. Edit `GoVinyl_Regmark_v….js`. Keep it one file, so people can install it by downloading a single script. For a new version, raise `VERSION` in the script, rename the file to match (`git mv GoVinyl_Regmark_v2.1.js GoVinyl_Regmark_v2.2.js`) and add a section to `CHANGELOG.md`; the tests check that file name and version agree.
 3. Run the tests (see below) and try the script in Illustrator.
 4. Describe your change in `CHANGELOG.md`.
 5. Open a pull request and describe what you changed and how you tested it.

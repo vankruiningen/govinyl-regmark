@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1 - 2026-11-14
+
+### Changed
+- Small marks are drawn half as large in the preview, so the preview of a large document looks closer to the real proportions.
+
 ## 2.0 - 2026-11-14
 
 First public release, as **GoVinyl Regmark** (previously the in-house script *Summa Regmarks VKR Standard*).
